@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+  <head> 
+    <title> Shelby Cumings </title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+
+    <style>
+      .row {
+        display: flex;
+      }
+      .column {
+        padding: 30px;
+      }
+      .clickable-logo {
+        height: 50px;
+        padding: 6px;
+        text-decoration: none;
+        width: 50px;
+      }
+      a {
+        color: #544f48;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #a27f51;
+      }
+      p {
+        font-size: 20px;
+      }
+      body {
+        background-attachment: fixed;
+        background-image: url('assets/background.jpg');
+        background-size: 100vw 100vh;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        color: #544f48;
+        font-family: serif;
+        height: 100vh;
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="row" style="height:60px">
+      <h1 style="text-align: center; width: 100%; font-family: 'Bad Script', 'Courier New'; margin-bottom:20px"><strong> Shelby Cumings </strong></h1>
+    </div>
+    <div class="row">
+      <h4 style="text-align: center; width: 100%;"><strong></strong><small><a href="mailto:s.rs.cumings@gmail.com">s.rs.cumings@gmail.com</a> - 512-212-6310</small></h4>
+    </div>
+    <hr style="border-color:#edcdbe">
+
+    <div class="row">
+      <div class="column" style="width:70%; padding-top:10px; padding-left: 60px; padding-right:20px">
+        <h3>Dedicated college senior graduating in December 2025 with dual B.S. degrees in Computer Science and Psychology. Demonstrating a strong foundation in software engineering 
+          and network management, backed by 150+ hours of coursework in key areas. Proven practical experience through internships at Dell Technologies and the Lewis-Peacock Lab, 
+          with proficiency in many industry tools and coding languages. Seeking entry-level software engineering role to apply skills, foster connections, and leverage fervor for continuous growth.</h3>
+        <p>I am an undergraduate senior graduating in December 2025 with dual B.S. degrees in Computer Science and Psychology.  
+          I have gained a strong foundation in software engineering and network management and completed over 150 hours of coursework 
+          in subjects including object-oriented design & programming, software engineering, Internet software development, 
+          computer networks, and computer system security.</p>
+        <p>Since falling in love with my first computer science course in high school, I have sought to continuously expand my knowledge 
+          of software engineering and cybersecurity applications. I have gained invaluable experience during internships at Dell Technologies 
+          and the Lewis-Peacock Lab at UT Austin, a research lab dedicated to the study of memory as it relates to neuroscience. In both of these roles, 
+          I applied practical processes and technical skills to develop creative and encompassing solutions and received mentorship from graduate students 
+          and professionals in the industry. During my studies, I further developed my skills by collaborating with peers to create thoughtful, larger-scale projects.</p>
+        <p>Thanks to my extensive coursework and practical experience, I am well-versed in utilizing industry-standard tools such as Visual Studio, Jira, GitHub, and both 
+          AGILE and waterfall methodologies. I am proficient in several coding languages, including C++, Python, HTML, JavaScript, and C#, and am able to utilize the strengths 
+          and features of each language to create a greater variety of products.</p>
+      </div>
+
+
+      <div class="column" style="width:30%; text-align: center">
+        <img src='assets/ProfilePhoto.png' style="height:350px; width:350px; margin-bottom:25px" alt="A profile photo of Shelby, a blonde woman with blue eyes.">
+        <div>
+          <a href="https://github.com/sc830/" target="_blank"><img class="clickable-logo" src='assets/GitHubLogo.png' style="margin-bottom:5px; margin-right:2px" title="Find me on GitHub" alt="Clickable GitHub Logo"></a>
+          <a href="https://www.linkedin.com/in/shelby-cumings" target="_blank"><img class="clickable-logo" src='assets/LinkedInLogo.png' style="margin-bottom:5px" title="Find me on LinkedIn" alt="Clickable LinkedIn logo"></a>
+          <a href="assets/SCumingsResume.pdf" download="SCumingsResume.pdf" target="_blank"><img class="clickable-logo" src='assets/ResumeDownloadIcon.png' style="height:56px" title="Download resume" alt="Clickable Resume Download Icon" ></a>
+        </div>
+      </div>
+
+    </div>
+
+
+      <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+
+    
+        const firebaseConfig = {
+          apiKey: "AIzaSyD64fiHkpionrdh7Kwor7dQJ6fPrTPn8-4",
+          authDomain: "scumingsportfolio.firebaseapp.com",
+          projectId: "scumingsportfolio",
+          storageBucket: "scumingsportfolio.appspot.com",
+          messagingSenderId: "644725320032",
+          appId: "1:644725320032:web:3b079448c7d3f101f7d605"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+      </script>
+  </body>
+
+</html>
